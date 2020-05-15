@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DD8A02237EF97D004138BF /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8A01237EF97D004138BF /* PlayScene.swift */; };
+		22DD8A04237F343C004138BF /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8A03237F343C004138BF /* ViewControllerBase.swift */; };
+		22DD8A06237F36D0004138BF /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8A05237F36D0004138BF /* MainScene.swift */; };
+		22DD8A08237F36EF004138BF /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8A07237F36EF004138BF /* SettingScene.swift */; };
+		2AB031B2237AC1970063D5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB031B1237AC1970063D5E9 /* AppDelegate.swift */; };
+		2AB031BB237AC19A0063D5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB031BA237AC19A0063D5E9 /* Assets.xcassets */; };
+		2AB031BE237AC19A0063D5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB031BC237AC19A0063D5E9 /* LaunchScreen.storyboard */; };
+		2AB031C8237ACB560063D5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB031C7237ACB560063D5E9 /* SceneDelegate.swift */; };
+		7C22D3872385984D008E72F5 /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C22D3862385984D008E72F5 /* Questions.json */; };
+		B609486023881FC100A4914D /* TUTORIAL1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B6E736222386E8D8000907DC /* TUTORIAL1.mp4 */; };
+		B609486123881FC100A4914D /* TUTORIAL2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B6E736232386E8E9000907DC /* TUTORIAL2.mp4 */; };
+		B6094863238825FC00A4914D /* videoTutoria2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6094862238825FC00A4914D /* videoTutoria2.swift */; };
+		B609486523883AD500A4914D /* img5.png in Resources */ = {isa = PBXBuildFile; fileRef = B609486423883AD400A4914D /* img5.png */; };
+		B61156AD238C028A0092CC30 /* psyko?.png in Resources */ = {isa = PBXBuildFile; fileRef = B61156AC238C028A0092CC30 /* psyko?.png */; };
+		B61156B0238C02EE0092CC30 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61156AE238C02EE0092CC30 /* TipsViewController.swift */; };
+		B61156B1238C02EE0092CC30 /* PsychoAnimionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61156AF238C02EE0092CC30 /* PsychoAnimionViewController.swift */; };
+		B61156B3238C06450092CC30 /* panda suggestion.png in Resources */ = {isa = PBXBuildFile; fileRef = B61156B2238C06450092CC30 /* panda suggestion.png */; };
+		B61156B7238C0E980092CC30 /* lampaccfondoviol.png in Resources */ = {isa = PBXBuildFile; fileRef = B61156B6238C0E980092CC30 /* lampaccfondoviol.png */; };
+		B61156B9238C0EAF0092CC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61156B8238C0EAF0092CC30 /* Main.storyboard */; };
+		B61156BD238C18B50092CC30 /* Goofy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B61156BC238C18B50092CC30 /* Goofy.mp3 */; };
+		B6A09F202385A82E00A6160A /* cerchioV.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A09F1F2385A82D00A6160A /* cerchioV.png */; };
+		B6E7361D2386C9A4000907DC /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E7361C2386C9A4000907DC /* arrow.png */; };
+		B6E7361F2386CD45000907DC /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E7361E2386CD45000907DC /* arrow1.png */; };
+		B6E736252386E9FC000907DC /* videoTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E736242386E9FC000907DC /* videoTutorial.swift */; };
+		B6E7362C2386F43F000907DC /* quick play.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E736262386F43F000907DC /* quick play.png */; };
+		B6E7362D2386F43F000907DC /* carrello.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E736272386F43F000907DC /* carrello.png */; };
+		B6E7362E2386F43F000907DC /* first game.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E736282386F43F000907DC /* first game.png */; };
+		B6E7362F2386F43F000907DC /* centriconcentriciviola.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E736292386F43F000907DC /* centriconcentriciviola.png */; };
+		B6E736302386F43F000907DC /* impostazioni.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E7362A2386F43F000907DC /* impostazioni.png */; };
+		B6E736312386F43F000907DC /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E7362B2386F43F000907DC /* panda.png */; };
+		B6FBA2F3238705A000C4D083 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FBA2F2238705A000C4D083 /* Default-568h@2x.png */; };
+		B6FBA2F4238706D100C4D083 /* PSYCHO-PAT.otf in Resources */ = {isa = PBXBuildFile; fileRef = B67E40C32386FB52007CFC5E /* PSYCHO-PAT.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22DD8A01237EF97D004138BF /* PlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		22DD8A03237F343C004138BF /* ViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBase.swift; sourceTree = "<group>"; };
+		22DD8A05237F36D0004138BF /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		22DD8A07237F36EF004138BF /* SettingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		2AB031AE237AC1970063D5E9 /* PSYKO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSYKO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB031B1237AC1970063D5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB031BA237AC19A0063D5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB031BD237AC19A0063D5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB031BF237AC19A0063D5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB031C7237ACB560063D5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C22D3862385984D008E72F5 /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Questions.json; path = "../../../Downloads/Telegram Desktop/Questions.json"; sourceTree = "<group>"; };
+		B6094862238825FC00A4914D /* videoTutoria2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoTutoria2.swift; sourceTree = "<group>"; };
+		B609486423883AD400A4914D /* img5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5.png; path = ../../img5.png; sourceTree = "<group>"; };
+		B61156AC238C028A0092CC30 /* psyko?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "psyko?.png"; path = "../../PSYKO 2 2/navigationworkshop/psyko?.png"; sourceTree = "<group>"; };
+		B61156AE238C02EE0092CC30 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipsViewController.swift; path = "../../PSYKO 2 2/navigationworkshop/TipsViewController.swift"; sourceTree = "<group>"; };
+		B61156AF238C02EE0092CC30 /* PsychoAnimionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PsychoAnimionViewController.swift; path = "../../PSYKO 2 2/navigationworkshop/PsychoAnimionViewController.swift"; sourceTree = "<group>"; };
+		B61156B2238C06450092CC30 /* panda suggestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "panda suggestion.png"; path = "../../PSYKO 2 2/navigationworkshop/panda suggestion.png"; sourceTree = "<group>"; };
+		B61156B6238C0E980092CC30 /* lampaccfondoviol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampaccfondoviol.png; sourceTree = "<group>"; };
+		B61156B8238C0EAF0092CC30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B61156BC238C18B50092CC30 /* Goofy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Goofy.mp3; path = ../../Goofy.mp3; sourceTree = "<group>"; };
+		B67E40C32386FB52007CFC5E /* PSYCHO-PAT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PSYCHO-PAT.otf"; sourceTree = "<group>"; };
+		B6A09F1F2385A82D00A6160A /* cerchioV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cerchioV.png; sourceTree = "<group>"; };
+		B6E7361C2386C9A4000907DC /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		B6E7361E2386CD45000907DC /* arrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1.png; sourceTree = "<group>"; };
+		B6E736222386E8D8000907DC /* TUTORIAL1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TUTORIAL1.mp4; sourceTree = "<group>"; };
+		B6E736232386E8E9000907DC /* TUTORIAL2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TUTORIAL2.mp4; sourceTree = "<group>"; };
+		B6E736242386E9FC000907DC /* videoTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoTutorial.swift; sourceTree = "<group>"; };
+		B6E736262386F43F000907DC /* quick play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quick play.png"; sourceTree = "<group>"; };
+		B6E736272386F43F000907DC /* carrello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrello.png; sourceTree = "<group>"; };
+		B6E736282386F43F000907DC /* first game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first game.png"; sourceTree = "<group>"; };
+		B6E736292386F43F000907DC /* centriconcentriciviola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centriconcentriciviola.png; sourceTree = "<group>"; };
+		B6E7362A2386F43F000907DC /* impostazioni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = impostazioni.png; sourceTree = "<group>"; };
+		B6E7362B2386F43F000907DC /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda.png; sourceTree = "<group>"; };
+		B6FBA2F2238705A000C4D083 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB031AB237AC1970063D5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB031A5237AC1970063D5E9 = {
+			isa = PBXGroup;
+			children = (
+				B6FBA2F2238705A000C4D083 /* Default-568h@2x.png */,
+				2AB031B0237AC1970063D5E9 /* navigationworkshop */,
+				2AB031AF237AC1970063D5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB031AF237AC1970063D5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB031AE237AC1970063D5E9 /* PSYKO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB031B0237AC1970063D5E9 /* navigationworkshop */ = {
+			isa = PBXGroup;
+			children = (
+				2AB031B1237AC1970063D5E9 /* AppDelegate.swift */,
+				B61156B8238C0EAF0092CC30 /* Main.storyboard */,
+				2AB031C7237ACB560063D5E9 /* SceneDelegate.swift */,
+				22DD8A01237EF97D004138BF /* PlayScene.swift */,
+				22DD8A05237F36D0004138BF /* MainScene.swift */,
+				22DD8A07237F36EF004138BF /* SettingScene.swift */,
+				B6E736242386E9FC000907DC /* videoTutorial.swift */,
+				22DD8A03237F343C004138BF /* ViewControllerBase.swift */,
+				B6094862238825FC00A4914D /* videoTutoria2.swift */,
+				B6E736272386F43F000907DC /* carrello.png */,
+				B6E736292386F43F000907DC /* centriconcentriciviola.png */,
+				B6E736282386F43F000907DC /* first game.png */,
+				B6E7362A2386F43F000907DC /* impostazioni.png */,
+				B6E7362B2386F43F000907DC /* panda.png */,
+				B61156AC238C028A0092CC30 /* psyko?.png */,
+				B6E736262386F43F000907DC /* quick play.png */,
+				B6A09F1F2385A82D00A6160A /* cerchioV.png */,
+				B6E7361C2386C9A4000907DC /* arrow.png */,
+				B6E7361E2386CD45000907DC /* arrow1.png */,
+				B609486423883AD400A4914D /* img5.png */,
+				B61156B2238C06450092CC30 /* panda suggestion.png */,
+				B6E736222386E8D8000907DC /* TUTORIAL1.mp4 */,
+				B6E736232386E8E9000907DC /* TUTORIAL2.mp4 */,
+				B61156BC238C18B50092CC30 /* Goofy.mp3 */,
+				2AB031BA237AC19A0063D5E9 /* Assets.xcassets */,
+				7C22D3862385984D008E72F5 /* Questions.json */,
+				2AB031BC237AC19A0063D5E9 /* LaunchScreen.storyboard */,
+				B61156AF238C02EE0092CC30 /* PsychoAnimionViewController.swift */,
+				B61156AE238C02EE0092CC30 /* TipsViewController.swift */,
+				B61156B6238C0E980092CC30 /* lampaccfondoviol.png */,
+				2AB031BF237AC19A0063D5E9 /* Info.plist */,
+				B67E40C32386FB52007CFC5E /* PSYCHO-PAT.otf */,
+			);
+			path = navigationworkshop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB031AD237AC1970063D5E9 /* PSYKO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB031C2237AC19A0063D5E9 /* Build configuration list for PBXNativeTarget "PSYKO" */;
+			buildPhases = (
+				2AB031AA237AC1970063D5E9 /* Sources */,
+				2AB031AB237AC1970063D5E9 /* Frameworks */,
+				2AB031AC237AC1970063D5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSYKO;
+			productName = navigationworkshop;
+			productReference = 2AB031AE237AC1970063D5E9 /* PSYKO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB031A6237AC1970063D5E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = prova;
+				TargetAttributes = {
+					2AB031AD237AC1970063D5E9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AB031A9237AC1970063D5E9 /* Build configuration list for PBXProject "PSYKO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB031A5237AC1970063D5E9;
+			productRefGroup = 2AB031AF237AC1970063D5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB031AD237AC1970063D5E9 /* PSYKO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB031AC237AC1970063D5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B609486023881FC100A4914D /* TUTORIAL1.mp4 in Resources */,
+				B609486123881FC100A4914D /* TUTORIAL2.mp4 in Resources */,
+				B6E736302386F43F000907DC /* impostazioni.png in Resources */,
+				B61156BD238C18B50092CC30 /* Goofy.mp3 in Resources */,
+				B6FBA2F4238706D100C4D083 /* PSYCHO-PAT.otf in Resources */,
+				2AB031BE237AC19A0063D5E9 /* LaunchScreen.storyboard in Resources */,
+				B6E7361D2386C9A4000907DC /* arrow.png in Resources */,
+				7C22D3872385984D008E72F5 /* Questions.json in Resources */,
+				B6E736312386F43F000907DC /* panda.png in Resources */,
+				B6FBA2F3238705A000C4D083 /* Default-568h@2x.png in Resources */,
+				B6E7362F2386F43F000907DC /* centriconcentriciviola.png in Resources */,
+				B6E7362C2386F43F000907DC /* quick play.png in Resources */,
+				B609486523883AD500A4914D /* img5.png in Resources */,
+				B61156B7238C0E980092CC30 /* lampaccfondoviol.png in Resources */,
+				B6E7362D2386F43F000907DC /* carrello.png in Resources */,
+				B61156AD238C028A0092CC30 /* psyko?.png in Resources */,
+				2AB031BB237AC19A0063D5E9 /* Assets.xcassets in Resources */,
+				B6E7362E2386F43F000907DC /* first game.png in Resources */,
+				B61156B9238C0EAF0092CC30 /* Main.storyboard in Resources */,
+				B6A09F202385A82E00A6160A /* cerchioV.png in Resources */,
+				B6E7361F2386CD45000907DC /* arrow1.png in Resources */,
+				B61156B3238C06450092CC30 /* panda suggestion.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB031AA237AC1970063D5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB031B2237AC1970063D5E9 /* AppDelegate.swift in Sources */,
+				22DD8A04237F343C004138BF /* ViewControllerBase.swift in Sources */,
+				B6E736252386E9FC000907DC /* videoTutorial.swift in Sources */,
+				2AB031C8237ACB560063D5E9 /* SceneDelegate.swift in Sources */,
+				B61156B1238C02EE0092CC30 /* PsychoAnimionViewController.swift in Sources */,
+				22DD8A06237F36D0004138BF /* MainScene.swift in Sources */,
+				B61156B0238C02EE0092CC30 /* TipsViewController.swift in Sources */,
+				22DD8A02237EF97D004138BF /* PlayScene.swift in Sources */,
+				22DD8A08237F36EF004138BF /* SettingScene.swift in Sources */,
+				B6094863238825FC00A4914D /* videoTutoria2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AB031BC237AC19A0063D5E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB031BD237AC19A0063D5E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB031C0237AC19A0063D5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB031C1237AC19A0063D5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB031C3237AC19A0063D5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 256756VFT8;
+				INFOPLIST_FILE = navigationworkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigernau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB031C4237AC19A0063D5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = navigationworkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB031A9237AC1970063D5E9 /* Build configuration list for PBXProject "PSYKO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB031C0237AC19A0063D5E9 /* Debug */,
+				2AB031C1237AC19A0063D5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB031C2237AC19A0063D5E9 /* Build configuration list for PBXNativeTarget "PSYKO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB031C3237AC19A0063D5E9 /* Debug */,
+				2AB031C4237AC19A0063D5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB031A6237AC1970063D5E9 /* Project object */;
+}
